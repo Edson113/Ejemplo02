@@ -10,12 +10,12 @@ struct Persona {
 	char nombre[20];
 	int edad, peso;
 	Fecha fecha;
-}persona = { "Cindy",20,45,2,12,1997 };
+}persona = { "Joseph",23,55,16,06,1999 };
 
 struct Empleado {
 	Persona persona;
 	int salario;
-}trabajador = { "Steven",19,60,22,7,1998,1000 };
+}trabajador = { "Kevin",14,50,30,03,2008,1000 };
 
 int main() {
 	cout << "Persona: " << persona.nombre;
